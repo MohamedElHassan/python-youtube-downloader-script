@@ -1,0 +1,18 @@
+# 1- Install Chocolatey first (if not installed):
+# Run PowerShell as Administrator and paste:
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+# 2- Then install FFmpeg:
+choco install ffmpeg
+
+3- install python
+
+4- install or upgrade: yt-dlp package: 
+pip install --upgrade yt-dlp
+
+5- open cmd.
+6- (Go to any directory you have installed yt downloader) cd C:\Users\Administrator\Downloads
+7- run: python youtube_downloader.py -u "type here video link or playlist or channel link"
+8- choose options you want.
+9- congrants!
+10- outputs are in : YouTube_Downloads directory
